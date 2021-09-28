@@ -12,7 +12,7 @@ $colores : (
 
 body {margin: 0;
     padding: 0;
-    background: url(../Assets/fotofondo2.jpg);
+    background: url(../assets/fotofondo2.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;}
@@ -49,116 +49,45 @@ body {margin: 0;
 
 
     /* INICIO*/
-       .titulo{ 
-
-              &__principal {text-align: center;
-                     color:map-get($colores ,h1 );}
-
-              &__principal--negrita {background-color: white;
-                            padding:5px;
-                            border: solid 3px black;
-                            border-radius: 10px;} 
-
-              &__subtitulo {text-align:center;
-                            color: map-get($colores, h2);}
-              
-              &__parrafo {
-                     text-align: center;
-              }
-              }      
 
               .collapse {
                      justify-content: space-between;
               }
 
               .fondo { 
-                     background: url(../Assets/backgroundInicio.jpg);
-              }
+                     background-image: url(../assets/backgroundinicio.png) ;
+                     background-size: 100% 100%;
+                     background-attachment: fixed;
 
+              }
+              
+              .btn {transition:  all 1.5s;}
+       
+              .btn:hover {transform: translateY(-15px)
+
+              }
+               
+              
 
     /*FLOTA*/
 
 
 
-    .table { margin: auto;
-
-       &__titulo { color: white;}
-
-       &__row th {color: red;}
-
-       &__row td {color:royalblue;
-              text-align: center; }
-
-           }
-
+   
+  
 
     /*CAMPUS VIRTUAL*/
 
-    .video {text-align: center;}
-
-
-
     /* PROGRAMAS*/
 
-    .Programas {display: flex;
-                align-items: center;
-                margin: auto;
-                background-color: rgb(84, 98, 110);
-                height:auto;
-                justify-content: space-around;
-                text-align: center;
-                margin: 15px 15px ;
-
-       &__section {padding: 35px;}
-
-       &__texto {color: white;
-                 padding: 30px;
-                 font-size: 24px;
-                 text-align: center;}
-
-       &__foto {width: 100%; 
-                height: 350px;}
-               }
-
     /*EXTRANJEROS*/
+ 
+    .scalable { transition:  all 1.5s;
+           
 
-     .titulo {
-            &__principal em {
-                   text-align: center;
-            }
-            &__texto {
-                   text-align: center;
-                   background-color: white;
-                   padding: 15px;
-                   border-radius: 15px;
-            }
-     }
+    }
 
-    .Extranjeros {margin: 30px 30px;
-
-
-       &__contenedor {display: grid;
-                     grid-template-columns: 1fr 1fr 1fr;
-                     grid-template-rows: auto auto auto;
-                     grid-gap: 15px;
-                     grid-column-gap: 20px;} 
-
-       &__foto {width: 100%;
-              height: 100%;
-              border-radius: 15px;
-              transition: all 2s;}
-
-       &__foto:hover {transform: scale(1.1);}
-
-       .uno {grid-column: 1/2;
-              grid-row: 2/3;}
-
-       .siete {grid-column: 3/4;}
-
-       .once {grid-column: 1/3;
-              grid-row: 3/4;}
-
-                     }
+    .scalable:hover {transform: scale(1.1);}
     
 
 
