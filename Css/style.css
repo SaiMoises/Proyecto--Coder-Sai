@@ -66,5 +66,12 @@ body {
   color: white; }
 
 @media screen and (max-width: 720px) {
+  .body {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, #00e7f9, #33e2f2, #48deeb, #56d9e4, #62d4dd);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif; }
   .fotomobile {
     width: 100%; } }
