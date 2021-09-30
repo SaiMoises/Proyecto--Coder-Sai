@@ -39,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-.iconoUbicacion i {
+  .iconoUbicacion i {
     color: white; }
 
 .iconoFoto {
@@ -47,7 +47,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-.iconoFoto i {
+  .iconoFoto i {
     color: white; }
 
 .iconoContacto {
@@ -55,7 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-.iconoContacto i {
+  .iconoContacto i {
     color: white; }
 
 .iconoCentral {
