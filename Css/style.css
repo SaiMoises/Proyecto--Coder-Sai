@@ -39,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  .iconoUbicacion i {
+.iconoUbicacion i {
     color: white; }
 
 .iconoFoto {
@@ -47,7 +47,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  .iconoFoto i {
+.iconoFoto i {
     color: white; }
 
 .iconoContacto {
@@ -55,7 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  .iconoContacto i {
+.iconoContacto i {
     color: white; }
 
 .iconoCentral {
@@ -65,8 +65,13 @@ body {
   flex-direction: column;
   color: white; }
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
   .body {
-    background-image: radial-gradient(circle, #00e7f9, #33e2f2, #48deeb, #56d9e4, #62d4dd); }
-    .body .fotomobile {
-      width: 100%; } }
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, #00e7f9, #33e2f2, #48deeb, #56d9e4, #62d4dd);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif; }
+  .fotomobile {
+    width: 100%; } }
