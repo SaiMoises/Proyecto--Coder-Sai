@@ -28,8 +28,6 @@ let pais = prompt("Ingresa tu pais ").toUpperCase()
  
 const usuarioNuevo = new DatosUserFormulario(nombre,apellido,cursoDeInteres,email,pais)
 
-
-// console.log ( " Gracias por elegirnos " + usuarioNuevo.nombre + usuarioNuevo.apellido + " te enviaremos informacion sobre el curso de " + usuarioNuevo.cursoDeInteres + " a " + usuarioNuevo.email)
  usuarioNuevo.seleccionaPais()
 
 
